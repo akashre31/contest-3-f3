@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Portal - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  
+        <nav>
+          <h1>Teacher's Portal</h1>
+          <button id="logout-btn">Logout</button>
+        </nav>
+        <div class="container">
+          <h2>Welcome, <span id="name"></span>!</h2>
+          <div class="form">
+            <h3>Change Password</h3>
+            <div class="form-group">
+              <label for="old-password">Old Password:</label>
+              <input type="password" id="old-password" required>
+            </div>
+            <div class="form-group">
+              <label for="new-password">New Password:</label>
+              <input type="password" id="new-password" required>
+            </div>
+            <div class="form-group">
+              <label for="confirm-password">Confirm Password:</label>
+              <input type="password" id="confirm-password" required>
+            </div>
+            <button id="change-password-btn">Change Password</button>
+            <p id="password-msg"></p>
+          </div>
+        </div>
+        <script src="./javascript.js"></script>
+ 
+</body>
+</html>
